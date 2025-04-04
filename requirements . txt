@@ -1,0 +1,24 @@
+# Django and essential dependencies
+Django==4.2  
+djangorestframework  
+
+# Crypto and API-related libraries
+requests  
+ccxt  # For crypto exchange API integration  
+pandas  # Data manipulation  
+numpy  # Mathematical operations  
+
+# Web server & deployment
+gunicorn  # Production WSGI server  
+whitenoise  # Serving static files  
+
+# Database (Choose one based on your setup)
+psycopg2-binary  # For PostgreSQL  
+# sqlite3 (Included by default in Python)  
+
+# Environment variables handling
+python-dotenv  
+
+# Security & Performance
+django-cors-headers  # Handling CORS  
+django-environ  # Managing environment variable
